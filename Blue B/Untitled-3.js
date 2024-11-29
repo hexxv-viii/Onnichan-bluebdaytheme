@@ -178,7 +178,7 @@ function fadeOutMusic(duration) {
   }).go();
   
   new TypeIt("#teks2", {
-    strings: ["With or without me, may the universe always bestow happiness.", "Thank you for reading this so far and yeah YOUU TURNED 24!!", "YOU'RE GETTING DAMN OLD!!", "Oh and also thanks for tolerating me back those days :-) ", "Wishing you all the Besttt of best universe has to offer.", "- Yours ever, Suzana."],
+    strings: ["With or without me, may the universe always bestow happiness.", "Thank you for reading this so far and yeah YOUU TURNED 24!!", "YOU'RE GETTING DAMN OLD!!", "Oh and also thanks for tolerating me back those days :-) "," ","Wishing you all the Besttt of best universe has to offer.", "- Yours ever, Suzana."],
     startDelay: 1000,
     speed: 73,
     waitUntilVisible: true
