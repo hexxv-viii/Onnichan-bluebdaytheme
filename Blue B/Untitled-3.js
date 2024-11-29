@@ -134,7 +134,7 @@ function playMusic() {
     }, 1000);
 
     // Fade out the music before THANK YOU appears
-    fadeOutMusic(10); // Fade out music over 5 seconds before THANK YOU
+    fadeOutMusic(13); // Fade out music over 5 seconds before THANK YOU
   
     slideLima.addEventListener('animationend', () => {
       slideLima.classList.add('animate__delay-3s')
@@ -160,14 +160,14 @@ function fadeOutMusic(duration) {
   const music = document.getElementById('background-music');
   let fadeOutInterval = setInterval(() => {
       if (music.volume > 0) {
-          music.volume = Math.max(0, music.volume - 0.02); // Decrease volume
+          music.volume = Math.max(0, music.volume - 0.03); // Decrease volume
       } else {
           clearInterval(fadeOutInterval); // Stop when volume reaches 0
           music.pause(); // Stop the music after fade out
           music.currentTime = 0;
           music.loop = false;
       }
-  }, (duration * 1000) / 50); // Adjust the interval based on the duration
+  }, (duration * 1000) / 52); // Adjust the interval based on the duration
 }
   
   new TypeIt("#teks1", {
