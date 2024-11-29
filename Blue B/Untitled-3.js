@@ -171,14 +171,14 @@ function fadeOutMusic(duration) {
 }
   
   new TypeIt("#teks1", {
-    strings: ["Dear Onnichaan, I know I may mean nothing to you but, still all my prayers are for you, with you.", "May the things that makes you fall apart also be the reason for you to keep growing.", "Shall the world always take care of you no matter wherever you are,", "May your days always be accompanied by everlasting love and shall your every steps be always guided and protected by Allah."],
+    strings: ["Dear Onnichaan,", "I know I may mean nothing to you but, still all my prayers are for you, with you.", "May the things that makes you fall apart also be the reason for you to keep growing.", "Shall the world always take care of you no matter wherever you are,", "May your days always be accompanied by everlasting love and shall your every steps be always guided and protected by Allah."],
     startDelay: 4000,
     speed: 73,
     waitUntilVisible: true
   }).go();
   
   new TypeIt("#teks2", {
-    strings: ["With or without me, may the universe always bestow happiness.", "Thank you for reading this so far and yeah YOUU TURNED 24!!", "YOU'RE GETTING DAMN OLD!! Oh and also thanks for tolerating me back those days :-) ", "Wishing you all the Besttt of best universe has to offer.", " ", "- Yours ever, Suzana."  ],
+    strings: ["With or without me, may the universe always bestow happiness.", "Thank you for reading this so far and yeah YOUU TURNED 24!!", "YOU'RE GETTING DAMN OLD!!", "Oh and also thanks for tolerating me back those days :-) ", "Wishing you all the Besttt of best universe has to offer.", "- Yours ever, Suzana."],
     startDelay: 1000,
     speed: 73,
     waitUntilVisible: true
