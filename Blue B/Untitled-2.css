@@ -55,11 +55,12 @@ html {
 
 
 /* Paper */
-@import url(https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Handlee);
 
 
 .paper {
-  font-family: 'Patrick Hand', sans-serif;
+  font-family: sans-serif;
   position: relative;
   top: 45px;
   width: 90%;
