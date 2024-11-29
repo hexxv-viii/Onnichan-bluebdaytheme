@@ -55,10 +55,11 @@ html {
 
 
 /* Paper */
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 
 
 .paper {
-  font-family: 'Comic Sans MS', 'Comic Sans', sans-serif;
+  font-family: 'Patrick Hand', 'Comic Sans MS', 'Comic Sans', sans-serif;
   position: relative;
   top: 45px;
   width: 90%;
